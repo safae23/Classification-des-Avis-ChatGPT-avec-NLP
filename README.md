@@ -1,13 +1,13 @@
-# 🧠 Classification des Avis ChatGPT avec NLP
+# Classification des Avis ChatGPT avec NLP
 
-## 📖 Description du projet
+## Description du projet
 Ce projet a pour objectif de **classifier automatiquement les avis laissés sur ChatGPT** (positifs, négatifs, neutres) en utilisant des **techniques avancées de traitement du langage naturel (NLP)** et des **réseaux de neurones profonds (RNN, LSTM, GRU)**.
 
 Le notebook montre l’ensemble du pipeline : de la préparation des données jusqu’à l’évaluation des modèles.
 
 ---
 
-## ⚙️ Technologies et bibliothèques utilisées
+## Technologies et bibliothèques utilisées
 - 🐍 **Python 3.x**
 - 🧩 **TensorFlow / Keras**
 - 🧠 **Scikit-learn**
@@ -17,7 +17,7 @@ Le notebook montre l’ensemble du pipeline : de la préparation des données ju
 
 ---
 
-## 📂 Structure du projet
+## Structure du projet
 
 ---
 
@@ -52,42 +52,19 @@ Chaque modèle utilise :
 
 ---
 
-## 📈 Résultats attendus
+## Résultats attendus
 Les modèles LSTM et GRU montrent généralement les meilleures performances sur les données textuelles, avec une bonne capacité à capter le contexte des phrases.
 
 Les métriques clés présentées :
 - **Accuracy**
 - **Recall**
 - **F1-score**
-- **AUC**
 
 ---
 
-## 🧩 Visualisations
+## Visualisations
 Quelques graphiques générés :
 - Distribution de la longueur des reviews
 - WordCloud des mots fréquents
 - Matrice de confusion
 - Courbe ROC
-
-*(Ajoute ces images dans un dossier `/images` si tu veux les afficher dans ton README.)*
-
----
-
-## 🚀 Exécution du projet
-
-### 🔹 1. Cloner le dépôt
-bash
-git clone https://github.com/safaechouai/Classification-des-Avis-ChatGPT-avec-NLP.git
-cd Classification-des-Avis-ChatGPT-avec-NLP
-
-### 🔹 2. Installer les 
-
-pip install -r requirements.txt
-
-
-(ou directement dans le notebook : !pip install wordcloud tensorflow==2.15.0)
-
-### 🔹 3. Lancer le notebook
-
-Ouvre le fichier projet2.ipynb dans Jupyter Notebook ou VS Code, puis exécute les cellules pas à pas.
