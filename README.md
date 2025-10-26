@@ -16,12 +16,7 @@ Le notebook montre l’ensemble du pipeline : de la préparation des données ju
 - ☁️ **WordCloud** pour la visualisation des mots
 
 ---
-
-## Structure du projet
-
----
-
-## 🧪 Étapes du projet
+## Étapes du projet
 
 ### 1️⃣ Préparation et nettoyage des données
 - Chargement du dataset `ChatGPT_Reviews.csv`
